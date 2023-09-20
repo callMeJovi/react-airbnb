@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+
+    padding: 20px 36px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
+}
+
+.main--photo {
+    /* width: 500px;
+    padding: 10px 40px; */
+    max-width: 400px;
+    align-self: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main--header {
+    margin-top: 25px;
+    margin-bottom: 16px;
+    /* padding-top: 20px;
+    padding-bottom: -5px; */
+    font-size: 2em;
+}
+
+.main--texte {
+    margin-top: 0px;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.katie-photo {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card--stats {
+    /* width: 500px;
+    padding: 10px 40px; */
+    display: flex;
+    align-items: center;
+
+}
+
+.katie-star {
+    height: 14px;
+}
+
+.rating {
+    margin-left: 5px;
+}
+
+.review {
+    color: grey;
+}
+
+.location {
+    color: grey
+}
+
+/* .title--prices {
+    display: flex;
+    flex-direction: column;
+} */
+
+.prices {
+    font-weight: bold;
+    font-style: italic;
+}
